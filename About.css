@@ -1,0 +1,13 @@
+.section-1{
+    background-color: white;
+}    
+
+.section-left{
+    width: 500px;
+}
+
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+}
