@@ -98,21 +98,23 @@ li a {
 .right-section{
   position: relative;
   width: 80%;
-  height: 80vh;
+  height: 80%;
 }
 
 .image-one{
   position: absolute;
   width: 727.33px;
-  height: 765px;
+  height: 734px;
+  left: 0;
   top: 0;
   margin-right: 4rem;
 }
 
 .image-two{
   position: absolute;
-  top: 162px;
-  width: 639px;
-  height: 820.12px;
+  left: 100px;
+  width: 239px;
+  height: 320.12px;
   margin-right: 4rem;
+  top: 0px;
 }
