@@ -38,7 +38,7 @@ li a {
   /* padding: 4px 6px; */
 }
 
-li a:hover {
+.li a:hover {
   border-bottom: 5px solid rgb(44, 124, 158);
   padding: 4px 6px;
 }
@@ -68,7 +68,7 @@ li a:hover {
   border: none;
   margin-right: 3px;
   cursor: pointer;
-  transition: 1s;
+  transition: -1s;
 }
 
 .ja:hover {
@@ -95,23 +95,26 @@ li a:hover {
 }
 
 /* -- right-section -- */
-.right-section {
+.right-section{
   position: relative;
+  width: 80%;
+  height: 80%;
 }
 
 .image-one{
   position: absolute;
   width: 727.33px;
-  height: 765px;
+  height: 734px;
+  left: 0;
   top: 0;
   margin-right: 4rem;
 }
 
 .image-two{
   position: absolute;
-  top: 162px;
-  width: 639px;
-  height: 820.12px;
+  left: 100px;
+  width: 239px;
+  height: 320.12px;
   margin-right: 4rem;
+  top: 0px;
 }
-
